@@ -44,8 +44,9 @@ This project can be expanded upon in the following ways:
 - Creating a model that containd actionable detection that reports or close domains of phishing URLs
 
 # **Repository Navigation**
-The repository contains one folder and three files, see description below:
+The repository contains two folder and three files, see description below:
 - Archive: This is a folder, it conains draft notebooks used in preliminary coding
+- Data: This is a folder that contains the data used for modelling
 - Capstone_SunmiOgundairo.ipnynb: This is a jupyter notebook that contains all the code and explanation  of the reason behind methodologies used
 - Capstone_SunmiOgundairo.pptx: This is a powerpoint deck with presentaion slides that explains the model and results to nontechnical audiences
 -  ReadMe: This is a summary file with that provides a general overview of the project 
