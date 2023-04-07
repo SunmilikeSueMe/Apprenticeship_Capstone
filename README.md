@@ -10,14 +10,14 @@ This project uses machine learning to recommend a set of models for predicting p
 
 
 # **Business Understanding**
-Online shoppers lose money, time, and personal identifiable information to malicious websites because they are often unable to differentiate between a legitimate website and a phishing site. Cybercrimes have become rampart due to the increase in data value, "it revealed that the share of phishing sites detected using HTTPS increased from 32% in 2021 to over 49% last year – a rise of nearly 56%" (InfoSecurity Group). The model built within this project can be adopted across different industries; however, this project is geared to the retail/e-commerce industry and would be useful for vulnerable consumers to protect themselves from cybercrimes.
+Online shoppers lose money, time, and personal identifiable information to malicious websites because they are often unable to differentiate between a legitimate website and a phishing site. Cybercrimes have become rampart due to the increase in data value, a recent study "revealed that the share of phishing sites detected using HTTPS increased from 32% in 2021 to over 49% last year – a rise of nearly 56%" (InfoSecurity Group). The model built within this project can be adopted across different industries; however, this project is geared to the retail/e-commerce industry and would be useful for vulnerable consumers to protect themselves from cybercrimes.
 
  ![image](https://user-images.githubusercontent.com/115121410/230516995-1beb54ed-dc32-42e5-b015-5f7c56ef1261.png)
 
 # **Data Understanding**
-This project uses data sourced from Phish Tank, Open Phish, Alexa and Yandex to build a model that classifies websites as legitimate or as phishing websites. Data was downloaded from Kaggle, an online platform for data scientists. Kaggle sourced the dataset originally from Engineering Application of Artificial Intelligence, an academic journal. Dataset was constructed in May 2020 The data used for this project is from the latest dataset publication in July 2021
+This project uses data sourced from Phish Tank, Open Phish, Alexa and Yandex to build a model that classifies websites as legitimate or as phishing websites. Data was downloaded from Kaggle, an online platform for data scientists. Kaggle sourced the dataset originally from Engineering Application of Artificial Intelligence, an academic journal. Dataset was constructed in May 2020, the dataset used for this project is from the latest dataset publication in July 2021
 
-The dataset contains information of 11430 URLs from both phishing and legitimate websites. The data came with 87 columns extracted from the websites page content, structure and URL syntax The dataset is balanced, i.e., it contains 50% phishing and 50% legitimate URLs. Some of the features in the dataset include domain age, WHOIS registered domain, page rank, ratio internal /external redirection, page rank (from open PageRank) among others.
+The dataset contains information of 11430 URLs from both phishing and legitimate websites. The data came with 89 columns extracted from the websites page content, structure and URL syntax The dataset is balanced, i.e., it contains 50% phishing and 50% legitimate URLs. Some of the features in the dataset include domain age, WHOIS registered domain, page rank, ratio internal /external redirection, page rank (from open PageRank) among others.
 
 # **Modelling and Evaluation**
 The folowing models where usd for the website classifiation problem:
@@ -33,20 +33,20 @@ Among all the URLs predicted by the best performing model, 91% of them were inde
 # **Conclusion**
 The best performing model is the XGBoost. The evaluation metrics from the training data shows all the models might be overfitting, although the overfitting is not significant for some models, it will be interesting to see how the model adjusts with an increase in the availability of datasets.
 
-The model can be used by vulnerable shoppers to validate a suspicious URL before commiting to shop on the website.
+The final model can be used by vulnerable shoppers to validate a suspicious URL before commiting to shop on the website.
 
 This project can be expanded upon in the following ways:
-- Increasing the amount of dataset for more robust model
+- Increasing the amount of dataset for a more robust model
 - Classsification of phishng emails
 - Classsification of phishng emails
 - Classification of shortened URLs, e.g URLs that have been shortened using Bitly, TinyURL
 - Embeding the URL detection model to a web browser
-- Creating a model that containd actionable detection that reports or close domains of phishing URLs
+- Creating a model that contains actionable detection that reports or close domains of phishing URLs
 
 # **Repository Navigation**
-The repository contains two folder and three files, see description below:
+The repository contains two folders and three files, see description below:
 - Archive: This is a folder, it conains draft notebooks used in preliminary coding
 - Data: This is a folder that contains the data used for modelling
 - Capstone_SunmiOgundairo.ipnynb: This is a jupyter notebook that contains all the code and explanation  of the reason behind methodologies used
 - Capstone_SunmiOgundairo.pptx: This is a powerpoint deck with presentaion slides that explains the model and results to nontechnical audiences
--  ReadMe: This is a summary file with that provides a general overview of the project 
+- ReadMe: This is a summary file with that provides a general overview of the project 
