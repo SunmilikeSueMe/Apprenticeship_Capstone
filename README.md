@@ -3,7 +3,7 @@
 
 # **Elevator Pitch**
 
-Using the phishing data, this project uses machine learning to recommend a set of models for predicting phishing websites. The motivation for this project is to reduce the loss of personal and financial information by vulnerable online shoppers who often cannot distinguish a legitimate website form its phishing counterpart. The best performing model predicts legitimate websites 91% of the time. 
+This project uses machine learning to recommend a set of models for predicting phishing websites. The motivation for this project is to reduce the loss of personal and financial information by vulnerable online shoppers who often cannot distinguish a legitimate website form its phishing counterpart. The best performing model predicts legitimate websites 91% of the time. 
 
 
 ![image](https://user-images.githubusercontent.com/115121410/230516092-c7a112ec-1722-4bf7-b896-9142f608bb7c.png)
